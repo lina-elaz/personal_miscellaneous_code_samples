@@ -1,0 +1,12 @@
+# Input parameters file
+N       300  #Number of Atoms
+rho     0.85   #Atomic Density
+Etot    6.0 # Total Energy per atom
+m       1.0    # mass of an atom
+dt      1.0e-3	 # Integration time step (in units of tau)
+maxstep 2000   # Total Number of Steps
+step    1      # Write output every IOstep steps
+rmax    3.0    # Max radius for RDF sampling
+Nrdf    501     # number of bins for RDF sampling (i.e. how thin the interval for counting is)
+sigma   1.0    # Potential length
+epsilon 1.0    # Potential depth
